@@ -1,5 +1,6 @@
 public class Student extends Human {
     protected byte grade;
+    protected boolean hasHomework;
     protected static boolean summerVacation = true;
     protected static boolean coolBoy = false;
     protected static boolean isStudentHeteroSexual = false;
