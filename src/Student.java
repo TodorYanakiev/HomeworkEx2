@@ -1,6 +1,8 @@
 public class Student extends Human {
     protected byte grade;
     protected static boolean summerVacation = true;
+    protected static boolean coolBoy = false;
+    protected static boolean isStudentHeteroSexual = false;
 
     Student() {
         super();
