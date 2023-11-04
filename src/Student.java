@@ -2,6 +2,8 @@ public class Student extends Human {
     protected byte grade;
     protected boolean hasHomework;
     protected static boolean summerVacation = true;
+    protected static boolean coolBoy = false;
+    protected static boolean isStudentHeteroSexual = false;
 
     Student() {
         super();
@@ -14,7 +16,11 @@ public class Student extends Human {
     }
 
     public void doNoHomeworkPunishment(){
+feature-modify-student
         for (int i = 0; i < 20; i++) {
+
+
+ master
             System.out.println("I will not miss homework again!");
         }
     }
