@@ -16,7 +16,7 @@ public class Student extends Human {
     }
 
     public void doNoHomeworkPunishment(){
-        for (int i = 0; i < 40; i++) {
+        for (int i = 0; i < 30; i++) {
             System.out.println("I will not miss homework again!");
         }
     }
