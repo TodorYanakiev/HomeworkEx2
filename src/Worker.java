@@ -1,6 +1,7 @@
 public class Worker extends Human {
     protected double dailyWage;
     protected byte workingHours;
+    cleaner
     protected static int minimalWage = 900;
 
     Worker() {
