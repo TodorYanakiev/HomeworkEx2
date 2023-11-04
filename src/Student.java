@@ -16,7 +16,11 @@ public class Student extends Human {
     }
 
     public void doNoHomeworkPunishment(){
-        for (int i = 0; i < 30; i++) {
+feature-modify-student
+        for (int i = 0; i < 20; i++) {
+
+
+ master
             System.out.println("I will not miss homework again!");
         }
     }
